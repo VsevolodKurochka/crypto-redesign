@@ -39,8 +39,8 @@ $(document).ready(function(){
 	// Tabs
 		$('[data-action="tab"]').click(function(){			
 			// Tab links toggle class
-				$(this).closest(".vtabs__list").children("li").removeClass('active');
-				$(this).parent().addClass('active');
+				$(this).closest(".vtabs__list").children("li").removeClass('vactive');
+				$(this).parent().addClass('vactive');
 			// Show tab content
 				var tabTarget = $(this).attr('data-target');
 				$(tabTarget).fadeIn('slow');

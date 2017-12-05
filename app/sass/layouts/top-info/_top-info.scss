@@ -26,6 +26,10 @@
 		@include ee('title'){
 			@extend %title-number;
 		}
+		@include ee('currency'){
+			font-weight: 600;
+			@extend %title-number;
+		}
 		@include ee('number'){
 			@extend %title-number;
 			font-weight: 600;

@@ -11,7 +11,8 @@ include ../helpers/mixins
 					+e.translate
 					+e.course
 						+e.SPAN.course-title Курс Bitcoin: 
-						+e.SPAN.course-number 11782.1 
+						+e.SPAN.course-number 11782.1
+						+e.SPAN.course-currency $ 
 						+e.SPAN.course-data (30.11.2017, 17:31)
 				+e.column._contact.col-6
 					+b.UL.social
@@ -34,7 +35,7 @@ include ../helpers/mixins
 	+b.nav._style
 		+e.container.container
 			+e.row.row.flex-y-center
-				+e.logo.col-9.col-md-4
+				+e.logo.col-12.col-md-4
 					+b.vhamburger(type="button" id="js-vnav__btn")
 						+e.SPAN.lines
 							span Line1

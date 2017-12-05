@@ -8,6 +8,7 @@
   overflow: hidden;
   max-width: 100%;
   text-decoration: none;
+  text-align: left;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.4;
@@ -29,6 +30,9 @@
   &_size{
     &-lg{
       @include btn-size($btn-large-padding, $btn-large-size);
+      @include resp-min(sm){
+        @include btn-size($btn-large-sm-padding, $btn-large-sm-size);
+      }
     }
     &-fluid{
       display: block;

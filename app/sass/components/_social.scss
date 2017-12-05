@@ -20,10 +20,13 @@
 			vertical-align: middle;
 			text-decoration: none;
 			color: inherit;
-			font-size: 13px;
+			font-size: 11px;
 			transition: all ease 0.5s;
 			&:hover{
 				color: $color-brand-1;
+			}
+			@include resp-min(xs){
+				font-size: 13px;
 			}
 			@include resp-min(sm){
 				font-size: 18px;

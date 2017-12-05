@@ -3,11 +3,11 @@ $themeFormDesign: 'new';
 
 @mixin input-default(){
 	display: block;
-	padding: 15px;
+	padding: 20px 15px;
 	width: 100%;
 	max-width: 100%;
 	color: #000;
-	text-align: left;
+	text-align: center;
 	font-size: 15px;
 	-webkit-appearance: none;
 	outline: none;

@@ -4,9 +4,8 @@ $sizes: (
 		xs:   18px
 	),
 	'vtitle-sm': (
-		sm:   20px,
-		md:   30px,
-		lg:   40px
+		sm:   18px,
+		md:   21px
 	),
 	'vtitle-md': (
 		sm:   30px,
@@ -16,15 +15,15 @@ $sizes: (
 	'vtitle-lg': (
 		sm:   40px,
 		md:   50px,
-		lg:   60px
+		lg:   75px
 	)
 );
 
 
 %vtitle-default{
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 15px;
-	line-height: 1.2;
+	line-height: 1.1;
 	font-weight: normal;
 }
 .vtitle{
@@ -34,17 +33,17 @@ $sizes: (
 		@extend %vtitle-default;
 	}
 	&-sm{
-		font-size: 20px;
+		font-size: 14px;
 		@include fs('vtitle-sm');
 		@extend %vtitle-default;
 	}
 	&-md{
-		font-size: 25px;
+		font-size: 22px;
 		@include fs('vtitle-md');
 		@extend %vtitle-default;
 	}
 	&-lg{
-		font-size: 30px;
+		font-size: 25px;
 		@include fs('vtitle-lg');
 		@extend %vtitle-default;
 	}
