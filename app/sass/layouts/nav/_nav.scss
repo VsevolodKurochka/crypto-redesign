@@ -16,7 +16,6 @@
 				}
 			}			
 			&_style{
-				position: fixed;
 				display: flex;
 				align-items: center;
 				width: 100%;
@@ -26,7 +25,6 @@
 				padding: 11px 0;
 				background-color: $color-responsive-menu;
 				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-				z-index: z('fixed');
 				+ .site{
 					margin-top: 56px;
 				}
@@ -38,7 +36,7 @@
 			}	
 		}
 		@include resp-min(md){
-			padding: 25px 0;
+			padding-top: 15px;
 		}
 	}
 }

@@ -23,13 +23,11 @@
 
 
 .font-general{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 $font-weights: (
-	'font-weight-regular' : 400,
 	'font-weight-light'   : 300,
-	'font-weight-bold'    : 700,
-	'font-weight-heavy'   : 900
+	'font-weight-semi'    : 600
 );
 
 @each $name, $weight in $font-weights{

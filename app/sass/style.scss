@@ -12,6 +12,8 @@
 @import 'grid/*';
 
 // Layouts
+@import 'layouts/top-info/*';
+@import 'components/social';
 @import 'layouts/nav/nav-variables';
 @import 'layouts/nav/nav-fixed';
 @import 'layouts/nav/nav';
@@ -53,10 +55,12 @@
 
 @import 'components/text/*';
 
+
+
 //@import 'fontawesome/font-awesome';
 @import 'vendor/tabs/tabs';
 @import 'vendor/modal/*';
 //@import 'vendor/carousel/carousel';
 @import 'vendor/collapse/collapse';
-//@import 'vendor/fontawesome/font-awesome/font-awesome';
+@import 'vendor/fontawesome/font-awesome';
 //@import 'vendor/animations/animations';

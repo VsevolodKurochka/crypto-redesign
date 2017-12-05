@@ -5,12 +5,12 @@
 		display: inline-block;
 		color: $color-black;
 		font-weight: bold;
-		&-link{
+		@include ee('link'){
 			display: block;
 			color: inherit;
 			text-decoration: none;
 		}
-		&-toggle{
+		@include ee('toggle'){
 			-webkit-tap-highlight-color: transparent;
 			outline: none;
 			display: block;
@@ -30,7 +30,7 @@
 			}
 		}
 		@include resp-max(md){
-			.#{$themeNav}_style &{
+			.v#{$themeNav}_style &{
 				text-align: right;
 				&:after{
 					@include pseudo();

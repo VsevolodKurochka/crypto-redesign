@@ -3,7 +3,7 @@ body{
   font-size: 18px;
   line-height: 1.42857143;
   @extend .font-general !optional;
-  @extend .font-weight-regular !optional;
+  @extend .font-weight-light !optional;
 }
 img{
   display: inline-block;
@@ -16,5 +16,5 @@ strong,
 .strong,
 b,
 .b{
-  @extend .font-weight-heavy !optional;
+  font-weight: bold;
 }
